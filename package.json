@@ -1,0 +1,42 @@
+{
+  "name": "soccer-game",
+  "version": "0.0.0",
+  "description": "A nodecg bundle to use in a soccer game.",
+  "homepage": "",
+  "author": {
+    "name": "Ruben Cancho",
+    "email": "canchete@gmail.com",
+    "url": ""
+  },
+  "files": [
+    "dashboard",
+    "graphics",
+    "extension.js",
+    "extension"
+  ],
+  "keywords": [
+    "",
+    "nodecg-bundle"
+  ],
+  "nodecg": {
+    "compatibleRange": ">=0.8.0",
+    "dashboardPanels": [
+      {
+        "name": "soccer",
+        "title": "Soccer",
+        "width": 2,
+        "file": "soccer.html",
+        "headerColor": "#9f9bbd"
+      }
+    ],
+    "graphics": [
+      {
+        "file": "index.html",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "repository": "canx/soccer-game",
+  "license": "Apache-2.0"
+}
